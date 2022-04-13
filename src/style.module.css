@@ -1,0 +1,219 @@
+:root {
+  --dl-color-gray-500: #595959;
+  --dl-color-gray-700: #999999;
+  --dl-color-gray-900: #D9D9D9;
+  --dl-size-size-large: 144px;
+  --dl-size-size-small: 48px;
+  --dl-color-danger-300: #A22020;
+  --dl-color-danger-500: #BF2626;
+  --dl-color-danger-700: #E14747;
+  --dl-color-gray-black: #000000;
+  --dl-color-gray-white: #FFFFFF;
+  --dl-size-size-medium: 96px;
+  --dl-size-size-xlarge: 192px;
+  --dl-size-size-xsmall: 16px;
+  --dl-space-space-unit: 16px;
+  --dl-color-primary-100: #003EB3;
+  --dl-color-primary-300: #0074F0;
+  --dl-color-primary-500: #14A9FF;
+  --dl-color-primary-700: #85DCFF;
+  --dl-color-success-300: #199033;
+  --dl-color-success-500: #32A94C;
+  --dl-color-success-700: #4CC366;
+  --dl-size-size-xxlarge: 288px;
+  --dl-size-size-maxwidth: 1400px;
+  --dl-radius-radius-round: 50%;
+  --dl-space-space-halfunit: 8px;
+  --dl-space-space-sixunits: 96px;
+  --dl-space-space-twounits: 32px;
+  --dl-radius-radius-radius2: 2px;
+  --dl-radius-radius-radius4: 4px;
+  --dl-radius-radius-radius8: 8px;
+  --dl-space-space-fiveunits: 80px;
+  --dl-space-space-fourunits: 64px;
+  --dl-color-default-red0ad43: rgba(255, 100, 83, 1);
+  --dl-color-default-rede8f8f: rgba(169, 84, 83, 1);
+  --dl-space-space-threeunits: 48px;
+  --dl-color-default-blackce295: rgba(0, 0, 0, 1);
+  --dl-color-default-white54006: rgba(255, 255, 255, 1);
+  --dl-color-default-orangebb633: rgba(227, 103, 43, 1);
+  --dl-color-default-purple212e2: rgba(101, 60, 128, 1);
+  --dl-color-default-gradient8c776: rgba(101, 60, 128, 1);
+  --dl-space-space-oneandhalfunits: 24px;
+  --dl-color-default-gradient3fc02a: rgba(227, 103, 43, 1);
+  --dl-color-default-darkpurple70a0f: rgba(55, 31, 71, 1);
+  --dl-color-default-navoverlay96a6c: rgba(0, 0, 0, 1);
+  --dl-color-default-lightorange89491: rgba(255, 142, 88, 1);
+  --dl-color-background-lightgray922c5: rgba(248, 248, 248, 1);
+  --dl-color-default-mediumpurplea1b6c: rgba(71, 37, 93, 1);
+  --dl-color-background-lightpurplea217b: rgba(250, 248, 255, 1);
+  --dl-color-default-transparentblackgradientaf41b: rgba(0, 0, 0, 1);
+}
+.button {
+  color: var(--dl-color-gray-black);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.input {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.textarea {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.list {
+  width: 100%;
+  margin: 1em 0px 1em 0px;
+  display: block;
+  padding: 0px 0px 0px 1.5rem;
+  list-style-type: none;
+  list-style-position: outside;
+}
+.list-item {
+  display: list-item;
+}
+.teleport-show {
+  display: flex !important;
+}
+.content {
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.h3LGMontserratWeight36px {
+  font-size: 36px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.body1SMMontserratWeight {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 600px;
+  font-stretch: normal;
+}
+.oVERLINELGMontserratWeight\#Px {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.body2SMMontserratWeight {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.subtitle2LGMontserratRegular\#Px {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.captionLGMontserratWeight\#Px {
+  font-size: 12px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.h3H6LGMontserratWeight\#Px {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.subtitle1LGMontserratRegular\#Px {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.body2LGMontserratWeight\#Px {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.bUTTON1LGMontserratWeight\#Px {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 600px;
+  font-stretch: normal;
+}
+.body1LGMontserratWeight\#Px {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 600px;
+  font-stretch: normal;
+}
+.h1LGMontserratWeight\#Px {
+  font-size: 64px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.h4LGMontserratWeight\#Px {
+  font-size: 30px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.bUTTON2LGMontserratWeight\#Px {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 600px;
+  font-stretch: normal;
+}
+.captionSMMontserratWeight {
+  font-size: 11px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.h2LGMontserratWeight\#Px {
+  font-size: 48px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 600px;
+  font-stretch: normal;
+}
+.h5LGMontserratWeight\#Px {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 700px;
+  font-stretch: normal;
+}
